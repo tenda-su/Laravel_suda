@@ -59,3 +59,4 @@ git config --global user.email
 git config --global user.name tenda_su
 git config --global user.email "you@example.com"
 git config --global user.email tenda_su000@gmail.com
+git remote add orgin git@github.com:tenda-su/test.git
