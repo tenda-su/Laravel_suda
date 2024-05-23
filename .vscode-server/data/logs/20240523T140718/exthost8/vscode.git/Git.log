@@ -1,0 +1,58 @@
+2024-05-23 14:28:25.026 [info] ログ レベル: Info
+2024-05-23 14:28:25.026 [info] Git の検証が検出されました: "git"
+2024-05-23 14:28:25.026 [info] "git" から Git "2.34.1" を使用しています
+2024-05-23 14:28:25.026 [info] > git rev-parse --show-toplevel [6ms]
+2024-05-23 14:28:25.026 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-05-23 14:28:25.026 [info] Open repository: /home/tenda
+2024-05-23 14:28:25.026 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-23 14:28:25.026 [info] > git config --get commit.template [13ms]
+2024-05-23 14:28:25.048 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-05-23 14:28:25.056 [info] > git rev-parse --show-toplevel [20ms]
+2024-05-23 14:28:25.065 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 14:28:25.077 [info] > git status -z -uall [22ms]
+2024-05-23 14:28:25.077 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-23 14:28:25.110 [info] > git rev-parse --show-toplevel [9ms]
+2024-05-23 14:28:25.111 [info] > git config --get commit.template [2ms]
+2024-05-23 14:28:25.123 [info] > git rev-parse --show-toplevel [6ms]
+2024-05-23 14:28:25.124 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-05-23 14:28:25.136 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-23 14:28:25.141 [info] > git status -z -uall [13ms]
+2024-05-23 14:28:25.147 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-23 14:28:25.722 [info] > git show --textconv :test-project/resources/views/auth/register.blade.php [27ms]
+2024-05-23 14:28:25.722 [info] > git show --textconv :test-project/routes/auth.php [20ms]
+2024-05-23 14:28:25.722 [info] > git ls-files --stage -- /home/tenda/test-project/resources/views/auth/register.blade.php [10ms]
+2024-05-23 14:28:25.730 [info] > git cat-file -s 25acc32da0ebb3c11e0269a8728a51783c6adab5 [2ms]
+2024-05-23 14:28:25.730 [info] > git ls-files --stage -- /home/tenda/test-project/routes/auth.php [10ms]
+2024-05-23 14:28:25.736 [info] > git cat-file -s 1040b5174d0f0a0b8910fd85e2f4dd6836c13078 [1ms]
+2024-05-23 14:28:25.778 [info] > git check-ignore -v -z --stdin [10ms]
+2024-05-23 14:28:27.967 [info] > git config --get commit.template [7ms]
+2024-05-23 14:28:27.967 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:28:27.999 [info] > git status -z -uall [29ms]
+2024-05-23 14:28:33.025 [info] > git config --get commit.template [5ms]
+2024-05-23 14:28:33.025 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:28:33.038 [info] > git status -z -uall [8ms]
+2024-05-23 14:28:34.439 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [0ms]
+2024-05-23 14:28:34.447 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [1ms]
+2024-05-23 14:28:34.453 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-05-23 14:28:34.453 [warning] git config failed: Failed to execute git
+2024-05-23 14:28:34.459 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [1ms]
+2024-05-23 14:28:34.465 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-05-23 14:28:34.465 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-05-23 14:28:34.465 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/main'
+2024-05-23 14:28:34.465 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/main'
+2024-05-23 14:28:34.535 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [7ms]
+2024-05-23 14:28:34.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [2ms]
+2024-05-23 14:28:34.554 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-05-23 14:28:34.554 [warning] git config failed: Failed to execute git
+2024-05-23 14:28:34.562 [info] > git reflog refs/heads/main --grep-reflog=branch: Created from *. [1ms]
+2024-05-23 14:28:34.569 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2024-05-23 14:28:34.569 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-05-23 14:28:34.569 [info] GitHistoryProvider:resolveHistoryItemGroupBase - Failed to resolve history item group base for 'refs/heads/main'
+2024-05-23 14:28:34.569 [info] GitHistoryProvider:resolveHistoryItemGroupCommonAncestor - Failed to resolve history item group base for 'refs/heads/main'
+2024-05-23 14:28:35.039 [info] > git check-ignore -v -z --stdin [3ms]
+2024-05-23 14:28:38.048 [info] > git config --get commit.template [1ms]
+2024-05-23 14:28:38.054 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-05-23 14:28:38.069 [info] > git status -z -uall [10ms]
+2024-05-23 14:28:43.078 [info] > git config --get commit.template [1ms]
+2024-05-23 14:28:43.084 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-05-23 14:28:43.105 [info] > git status -z -uall [15ms]

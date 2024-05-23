@@ -49,3 +49,13 @@ sail stop
 cd /wsl/Ubuntu/home/tenda/test-project
 cd wsl/Ubuntu/home/tenda
 cd //wsl/Ubuntu/home/tenda/test-project
+cd ./wsl
+cd ./wsl/Ubuntu/home
+cd /c/Users/
+cd \\wsl.localhost\Ubuntu\home
+cd /wsl.localhost/Ubuntu/home/tenda
+cd test-project
+git config --global user.email
+git config --global user.name tenda_su
+git config --global user.email "you@example.com"
+git config --global user.email tenda_su000@gmail.com
