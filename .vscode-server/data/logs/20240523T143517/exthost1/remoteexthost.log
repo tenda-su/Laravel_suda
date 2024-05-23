@@ -1,16 +1,16 @@
-2024-05-23 14:30:19.731 [info] Extension host with pid 80189 started
-2024-05-23 14:30:19.747 [info] Lock '/home/tenda/.vscode-server/data/User/workspaceStorage/9d15f59994ba9531649944469271f0fa/vscode.lock': Lock acquired.
-2024-05-23 14:30:19.917 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2024-05-23 14:30:19.918 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
-2024-05-23 14:30:20.155 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2024-05-23 14:30:20.534 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
-2024-05-23 14:30:20.534 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2024-05-23 14:30:21.097 [info] Eager extensions activated
-2024-05-23 14:30:21.097 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
-2024-05-23 14:30:21.098 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
-2024-05-23 14:31:09.069 [info] Extension host terminating: received terminate message from renderer
-2024-05-23 14:31:09.069 [info] Lock '/home/tenda/.vscode-server/data/User/workspaceStorage/9d15f59994ba9531649944469271f0fa/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
-2024-05-23 14:31:09.086 [error] Canceled: Canceled
+2024-05-23 14:35:19.962 [info] Extension host with pid 83789 started
+2024-05-23 14:35:19.976 [info] Lock '/home/tenda/.vscode-server/data/User/workspaceStorage/9d15f59994ba9531649944469271f0fa/vscode.lock': Lock acquired.
+2024-05-23 14:35:20.086 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-23 14:35:20.087 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-05-23 14:35:20.290 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-23 14:35:20.509 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-23 14:35:20.509 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-23 14:35:20.901 [info] Eager extensions activated
+2024-05-23 14:35:20.902 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-23 14:35:20.903 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-23 14:35:31.778 [info] Extension host terminating: received terminate message from renderer
+2024-05-23 14:35:31.778 [info] Lock '/home/tenda/.vscode-server/data/User/workspaceStorage/9d15f59994ba9531649944469271f0fa/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-05-23 14:35:31.800 [error] Canceled: Canceled
 	at new O (/home/tenda/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out/vs/workbench/api/node/extensionHostProcess.js:145:47131)
 	at c.U (/home/tenda/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out/vs/workbench/api/node/extensionHostProcess.js:152:5542)
 	at F.<computed>.z.charCodeAt.F.<computed> (/home/tenda/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out/vs/workbench/api/node/extensionHostProcess.js:152:2993)
@@ -63,7 +63,7 @@
 	at readableAddChunk (node:internal/streams/readable:308:9)
 	at Readable.push (node:internal/streams/readable:245:10)
 	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
-2024-05-23 14:31:09.086 [error] Canceled: Canceled
+2024-05-23 14:35:31.800 [error] Canceled: Canceled
 	at new O (/home/tenda/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out/vs/workbench/api/node/extensionHostProcess.js:145:47131)
 	at c.U (/home/tenda/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out/vs/workbench/api/node/extensionHostProcess.js:152:5542)
 	at F.<computed>.z.charCodeAt.F.<computed> (/home/tenda/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/out/vs/workbench/api/node/extensionHostProcess.js:152:2993)
@@ -118,4 +118,4 @@
 	at readableAddChunk (node:internal/streams/readable:308:9)
 	at Readable.push (node:internal/streams/readable:245:10)
 	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
-2024-05-23 14:31:09.086 [info] Extension host with pid 80189 exiting with code 0
+2024-05-23 14:35:31.800 [info] Extension host with pid 83789 exiting with code 0
